@@ -1,0 +1,32 @@
+Gen 
+    name
+    ls Props
+    options<T,K>
+        desc:
+        function: (T) -> K 
+        default: T
+    
+    serveProps  -> s
+    changeProp s -> !
+
+    **
+    wrapper s -> s 
+
+    --
+    hash  -> s 
+    str -> s
+    
+    getter K ->s  
+    setter K ->s
+
+JavaGen | Gen
+
+    serveProps 
+    wrapper
+    oo 
+    getter K -> s  
+    setter K -> s
+    
+    
+
+    

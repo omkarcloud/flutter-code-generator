@@ -1,0 +1,82 @@
+{
+	"name": "flutter-code-generator",
+	"displayName": "Generate Flutter Code Productivily",
+	"description": "Generate Flutter Code fast and be productive without writing boilerplate in an easy syntax ",
+	"version": "0.0.3",
+	"engines": {
+		"vscode": "^1.47.0"
+	},
+	"publisher": "ChetanJain",
+	"author": {
+		"name": "Chetan Jain"
+	},
+	"keywords": [
+		"generate flutter code",
+		"flutter code generator",
+		"dart data class generator",
+		"dart data class",
+		"dart data",
+		"data class generator"
+	],
+	"categories": [
+		"Programming Languages",
+		"Other"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"icon": "logo.png",
+	"license": "see LICENSE.md",
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "flutter-code-generator.generateCode",
+				"title": "Run Flutter Code Generator",
+				"icon": {
+					"light": "./images/codegenlight.svg",
+					"dark": "./images/codegendark.svg"
+				}
+			}
+		],
+		"menus": {
+			"editor/title": [
+				{
+					"when": "resourceLangId == dart",
+					"command": "flutter-code-generator.generateCode",
+					"alt": "flutter-code-generator.generateCode",
+					"group": "navigation"
+				}
+			]
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"lint": "eslint src --ext ts",
+		"watch": "tsc -watch -p ./",
+		"pretest": "npm run compile && npm run lint",
+		"test": "node ./out/test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.1",
+		"@types/mkdirp": "^1.0.1",
+		"@types/mocha": "^7.0.2",
+		"@types/node": "^13.11.0",
+		"@types/vscode": "^1.47.0",
+		"@typescript-eslint/eslint-plugin": "^2.30.0",
+		"@typescript-eslint/parser": "^2.30.0",
+		"eslint": "^6.8.0",
+		"glob": "^7.1.6",
+		"mocha": "^7.1.2",
+		"typescript": "^3.8.3",
+		"vscode-test": "^1.3.0"
+	},
+	"dependencies": {
+		"@types/indent-string": "^4.0.1",
+		"@types/lodash": "^4.14.159",
+		"indent-string": "^4.0.0",
+		"lodash": "^4.17.19",
+		"mkdirp": "^1.0.4"
+	}
+}
