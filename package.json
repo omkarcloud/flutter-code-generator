@@ -2,13 +2,17 @@
 	"name": "flutter-code-generator",
 	"displayName": "Generate Flutter Code Productivily",
 	"description": "Generate Flutter Code fast and be productive without writing boilerplate in an easy syntax ",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"engines": {
 		"vscode": "^1.47.0"
 	},
 	"publisher": "ChetanJain",
 	"author": {
 		"name": "Chetan Jain"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Chetan11-dev/generate-flutter-code"
 	},
 	"keywords": [
 		"generate flutter code",

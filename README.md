@@ -1,6 +1,42 @@
-# Hello Friend I will help you be productive Do read me after that you will be able to utilize me to full potential. Just needs your 7m.
- 
-So Hello I have a reason to exist which is to assist you to in your tough Development job. I solves a few problems which are
+![](images/demo.gif)
+
+
+# Examples!!!
+I am going to give you some examples that will help you.
+```
+make cl Fruit  f !n stl
+params     
+s name 
+dy origin
+```
+![](images/b.png)
+
+```
+make cl Fruit  f !n stl !eq !str 
+meths     
+s name 
+dy origin
+```
+
+![](images/c.png)
+
+# Same as meths 
+
+
+```
+make func
+
+b sweet [s name !n , i index, d rating]
+dy origin
+i index
+d hello 
+```
+![](images/d.png)
+
+
+## Hello Friend I will help you be productive Do read me after that you will be able to utilize me to full potential. Just needs your 7m.
+
+So Hello I am an exension I have a reason to exist which is to assist you to in your tough Development job in flutter. I solves a few problems which are as follows: 
 
 Q) In dart if we do something like ```print(classObjectVariable)``` it does not show us inside of a class which could we quite unhelpfull while debugging. So how to Solve it? 
 
@@ -21,7 +57,7 @@ A) I can generate toString() method for parent State by which you can inspect th
 Example always helps. So ```make cl stf``` or ```make cl stl``` generates stateful and stateless widget with eq and toString().
 
 ---
-## Examples
+## Guide
 
 Thank you could you give me some Concrete example of how to use you?
 
@@ -34,9 +70,10 @@ meths
 b sweet [s name !n , i index, d rating]
 dy origin
 ```
-I know the unknows Character looks unfamiliar but they dont worry I will guide you
+I know the unknows Character looks unfamiliar but they dont worry I will guide you.
 
-# Class Options
+# Explanations
+## Class Options
 ```make cl Fruit```
 
 It means I want to make a Class Fruit you can add default options after ClassName (Fruits in our case) as follows:
@@ -117,37 +154,5 @@ Here is a map of types and their Mapping
     dy: 'dynamic',
     ls: 'List<dynamic>'
 
-
-# Examples!!!
-I am not going to give you some examples that will help you.
-```
-make cl Fruit  f !n stl
-params     
-s name 
-dy origin
-```
-![](images/b.png)
-
-```
-make cl Fruit  f !n stl !eq !str 
-meths     
-s name 
-dy origin
-```
-
-![](images/c.png)
-
-# Same as meths 
-
-
-```
-make func
-
-b sweet [s name !n , i index, d rating]
-dy origin
-i index
-d hello 
-```
-![](images/d.png)
 
 # **Have a Happy Day Ahead!**

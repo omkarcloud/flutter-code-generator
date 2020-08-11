@@ -1,6 +1,7 @@
-make cl Fruits   
+make cl Fruit f r stf   
 params     
 s name [f !n]
+i index 
 meths 
 b sweet [s name !n , i index, d rating]
 dy origin
