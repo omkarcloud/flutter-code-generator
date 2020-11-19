@@ -1,6 +1,11 @@
 ![](images/demo.gif)
 
 
+A word on Architecture: 
+We bascially transform your input into data structures and output the resultant code. You could browsw the project by which you may gain thorough knowleddge of Code Generation. 
+We would gladly accept your help in improving it too!
+
+
 # Examples!!!
 I am going to give you some examples that will help you.
 ```
